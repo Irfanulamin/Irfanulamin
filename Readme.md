@@ -1,3 +1,6 @@
+<a href="https://github.com/Irfanulamin/Irfanulamin">
+<img src="https://i.ibb.co/cgTZ78m/4884785.jpg" />
+</a>
 <h1 align="center">Hi 👋, I'm Irfanul Amin 🧑</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
 
