@@ -22,8 +22,8 @@
     <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,firebase,mongodb,nextjs,redux" /><br>
 </div>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="irfanulamin" /></p>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="irfanulamin" />
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="irfanulamin" /></p>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="irfanulamin" />
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin&" alt="irfanulamin" /></p>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin&" alt="irfanulamin" />
