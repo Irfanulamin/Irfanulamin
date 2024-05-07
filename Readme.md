@@ -23,8 +23,12 @@
 </div>
 
 <hr/>
-<img  src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="irfanulamin" />
+ <table border="0" cellspacing="10" cellpadding="0">
+        <tr>
+            <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="Top Languages"></td>
+            <td><img src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="GitHub Stats"></td>
+            <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin" alt="GitHub Streak"></td>
+        </tr>
+    </table>
 
-<img  src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="irfanulamin" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin&" alt="irfanulamin" />
+    <hr/>
