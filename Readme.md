@@ -19,7 +19,10 @@ I am dedicated to delivering smooth and enjoyable user experiences that leave a 
 <a href="https://www.linkedin.com/in/irfanul-amin-218b37278/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/irfanul-amin-218b37278/" height="30" width="40" /></a>
 </p>
 </p>
-
+<ht/>
+<h3 align="left">What i work with 🔧</h3>
+<p> I have experience with the MERN stack (MongoDB, Express.js, React, Node.js) along with HTML, CSS, JavaScript, React, Next.js, TypeScript, Redux, Framer Motion, GitHub, and Tailwind CSS. With these technologies, I specialize in building dynamic and responsive web applications. I enjoy creating engaging user interfaces, managing application state efficiently with Redux, and adding smooth animations and transitions using Framer Motion. GitHub is my go-to platform for version control, and I use Tailwind CSS for rapid styling and customization.</p>
+<hr/>
 <h3 align="left">Languages and Tools:</h3>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" />
