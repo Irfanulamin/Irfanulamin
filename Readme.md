@@ -3,7 +3,7 @@
 </a>
 <h1 align="center">Hi 👋, I'm Irfanul Amin 🧑</h1>
 <p align="left">A passionate frontend developer from Bangladesh. I enjoy creating attractive and user-friendly interfaces with a passion for design and technology,
-I am dedicated to delivering smooth and enjoyable user experiences that leave a positive impact.</p>
+I am dedicated to delivering smooth and enjoyable user experiences that leave a positive impact. I work with React, Tailwind CSS, TypeScript, Next.js, MonogoDB and many more</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfanulamin&label=Profile%20views&color=0e75b6&style=flat" alt="irfanulamin" /> </p>
 
