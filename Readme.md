@@ -1,5 +1,5 @@
 <a href="https://github.com/Irfanulamin/Irfanulamin">
-<img src="https://i.ibb.co/xH6n2VP/Untitled-Project-1.jpg" />
+<img src="[https://i.ibb.co/xH6n2VP/Untitled-Project-1.jpg](https://i.ibb.co.com/dJhq24J/Hello-my-name-is-Irfan-irfanulamin10-gmail-com-3.png)" />
 </a>
 <h1 align="center">Hi 👋, I'm Irfanul Amin 🧑</h1>
 <p align="left">A passionate frontend developer from Bangladesh. I enjoy creating attractive and user-friendly interfaces with a passion for design and technology,
