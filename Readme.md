@@ -25,7 +25,7 @@ I am dedicated to delivering smooth and enjoyable user experiences that leave a 
 <h3 align="left">Languages and Tools:</h3>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,firebase,mongodb,nextjs,redux" /><br>
+    <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,firebase,mongodb,nextjs,redux,c,cpp" /><br>
 </div>
 
 <hr/>
