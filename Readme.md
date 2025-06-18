@@ -1,5 +1,4 @@
 <a href="https://github.com/Irfanulamin/Irfanulamin">
-<img src="https://i.ibb.co.com/dJhq24J/Hello-my-name-is-Irfan-irfanulamin10-gmail-com-3.png" />
 </a>
 <p align="left">A  MERN developer from Bangladesh. I enjoy creating attractive and user-friendly interfaces with a passion for design and technology,
 I am dedicated to delivering smooth and enjoyable user experiences that leave a positive impact. I work with React, Tailwind CSS, TypeScript, Next.js, MonogoDB and many more</p>
