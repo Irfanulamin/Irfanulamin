@@ -27,7 +27,7 @@ I am dedicated to delivering smooth and enjoyable user experiences that leave a 
 </div>
 
 <hr/>
- <table border="0" cellspacing="10" cellpadding="0">
+ <table cellspacing="10" cellpadding="0">
         <tr>
             <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="Top Languages"></td>
             <td><img src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="GitHub Stats"></td>
