@@ -9,7 +9,6 @@ I am dedicated to delivering smooth and enjoyable user experiences that leave a 
 
 - 📫 How to reach me **irfanulamin10@gmail.com**
 
-- ⚡ Fun fact **Did you know that JavaScript was created in just 10 days?**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -23,8 +22,8 @@ I am dedicated to delivering smooth and enjoyable user experiences that leave a 
 <hr/>
 <h3 align="left">Languages and Tools:</h3>
 <div align="center">
+    <img src="https://skillicons.dev/icons?i=javascript,typescript,c,cpp,nodejs,express,firebase,mongodb,nextjs,redux" /><br>
     <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,firebase,mongodb,nextjs,redux,c,cpp" /><br>
 </div>
 
 <hr/>
