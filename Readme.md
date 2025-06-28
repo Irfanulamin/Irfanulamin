@@ -74,4 +74,4 @@
   <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="irfanulamin">
 </p>
 
-![Waves](https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/wave.svg)
+![Waves](https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/wave.svg)
