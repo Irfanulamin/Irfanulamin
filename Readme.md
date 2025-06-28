@@ -57,7 +57,6 @@
   /></a>
 </p>
 
-<hr/>
 <h2>
   Languages and Tools
   <img
@@ -71,10 +70,6 @@
     <img src="https://skillicons.dev/icons?i=redux,bootstrap,html,css,vscode,github,figma,tailwind,git" />
 </div>
 
-<hr/>
- <table cellspacing="10" cellpadding="0">
-        <tr>
-            <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="Top Languages"></td>
-            <td><img src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="GitHub Stats"></td>
-        </tr>
- </table>
+<p align="center">
+  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="irfanulamin">
+</p>
