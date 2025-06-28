@@ -17,9 +17,10 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfanulamin&label=Profile%20views&color=0e75b6&style=flat" alt="irfanulamin" /> </p>
 
-- 👨‍💻 All of my projects are available at [here](https://irfanul-amin.vercel.app/)
-
-- 📫 How to reach me **irfanulamin10@gmail.com**
+- I’m currently working at [CreateDevs](https://www.create-devs.com/)
+- 🌱 I’m currently learning TypeScript, React-Native & Go.
+- 💬 Talk to me about React, Node, Python, JavaScript,
+- Freelancing Opportunities etc. - 📫 Reach me at **shakilatik@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
