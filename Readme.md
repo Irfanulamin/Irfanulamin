@@ -6,6 +6,15 @@
   />
 </div>
 
+<h1 align="center">
+  Hi, I'm Irfan A Frontedn Engineer from 🇧🇩
+</h1>
+<hr/>
+<p align="center">
+  <img  align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin" alt="irfanulamin">
+</p>
+<br />
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfanulamin&label=Profile%20views&color=0e75b6&style=flat" alt="irfanulamin" /> </p>
 
 - 👨‍💻 All of my projects are available at [here](https://irfanul-amin.vercel.app/)
@@ -33,6 +42,5 @@
         <tr>
             <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="Top Languages"></td>
             <td><img src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&locale=en" alt="GitHub Stats"></td>
-            <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin" alt="GitHub Streak"></td>
         </tr>
  </table>
