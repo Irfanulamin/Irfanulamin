@@ -1,10 +1,11 @@
-<div align="center">
+<div align="center" style="height: auto;">
   <img
-    width="100%"
+    style="height: 50%; width: 100%; object-fit: cover;"
     src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.jpg"
     alt="cover"
   />
 </div>
+
 
 <h3 align="center">
   I’m Irfan, a Frontend Engineer from Bangladesh 🇧🇩.
