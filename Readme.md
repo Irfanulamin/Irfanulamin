@@ -6,9 +6,9 @@
   />
 </div>
 
-<h1 align="center">
+<h3 align="center">
   Hi, I'm Irfan A Frontedn Engineer from 🇧🇩
-</h1>
+</h3>
 <hr/>
 <p align="center">
   <img  align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin" alt="irfanulamin">
