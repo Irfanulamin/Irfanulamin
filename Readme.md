@@ -19,7 +19,7 @@
 
 - I’m currently working at [CreateDevs](https://createdevs.com/)
 - 🌱 I’m currently learning Pyhton, Django.
-- 💬 Talk to me about React, Node, Python, JavaScript,
+- 💬 Talk to me about React, Node, Python, JavaScript.
 - Freelancing Opportunities etc. - 📫 Reach me at **irfanulamin10@gmail.com**
 
 <h2>
