@@ -1,7 +1,7 @@
 <div align="center">
   <img
     width="100%"
-    src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.jpeg"
+    src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.png"
     alt="cover"
   />
 </div>
