@@ -1,14 +1,16 @@
-<a href="https://github.com/Irfanulamin/Irfanulamin">
-</a>
-<p align="left">A  MERN developer from Bangladesh. I enjoy creating attractive and user-friendly interfaces with a passion for design and technology,
-I am dedicated to delivering smooth and enjoyable user experiences that leave a positive impact. I work with React, Tailwind CSS, TypeScript, Next.js, MonogoDB and many more</p>
+<div align="center">
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.jpeg"
+    alt="cover"
+  />
+</div>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfanulamin&label=Profile%20views&color=0e75b6&style=flat" alt="irfanulamin" /> </p>
 
 - 👨‍💻 All of my projects are available at [here](https://irfanul-amin.vercel.app/)
 
 - 📫 How to reach me **irfanulamin10@gmail.com**
-
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -34,4 +36,3 @@ I am dedicated to delivering smooth and enjoyable user experiences that leave a 
             <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin" alt="GitHub Streak"></td>
         </tr>
  </table>
-
