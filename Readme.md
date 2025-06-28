@@ -67,7 +67,7 @@
   />
 </h2>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=c,cpp,pyhton,javascript,typescript,react,nodejs,express,firebase,mongodb,nextjs" /><br>
+    <img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,typescript,react,nodejs,express,firebase,mongodb,nextjs" /><br>
     <img src="https://skillicons.dev/icons?i=redux,bootstrap,html,css,vscode,github,figma,tailwind,git" />
 </div>
 
