@@ -1,13 +1,13 @@
 <div align="center">
   <img
     width="100%"
-    src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.png"
+    src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.jpg"
     alt="cover"
   />
 </div>
 
 <h3 align="center">
-  Hi, I'm Irfan A Frontedn Engineer from 🇧🇩
+  I’m Irfan, a Frontend Engineer from Bangladesh 🇧🇩.
 </h3>
 <hr/>
 <p align="center">
