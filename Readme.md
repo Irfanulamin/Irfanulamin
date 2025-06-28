@@ -69,7 +69,7 @@
     <img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,typescript,react,nodejs,express,firebase,mongodb,nextjs" /><br>
     <img src="https://skillicons.dev/icons?i=redux,bootstrap,html,css,vscode,github,figma,tailwind,git" />
 </div>
-
+<br/>
 <p align="center">
   <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&show_icons=true&locale=en&layout=compact" alt="irfanulamin">
 </p>
