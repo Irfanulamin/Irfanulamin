@@ -1,9 +1,9 @@
 
 
 
-<h3 align="center">
+<h1 align="center">
   I’m Irfan, a Frontend Engineer from Bangladesh 🇧🇩.
-</h3>
+</h1>
 <hr/>
 <p align="center">
   <img  align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin" alt="irfanulamin">
