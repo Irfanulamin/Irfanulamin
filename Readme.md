@@ -1,10 +1,4 @@
-<div align="center" style="height: auto;">
-  <img
-    style="height: 50%; width: 100%; object-fit: cover;"
-    src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.jpg"
-    alt="cover"
-  />
-</div>
+
 
 
 <h3 align="center">
