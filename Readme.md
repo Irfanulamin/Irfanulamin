@@ -34,7 +34,7 @@
       height="30"
       width="40"
   /></a>
-  <a href="https://www.facebook.com/irfanul.amin.675827" target="blank"
+  <a href="https://www.facebook.com/irfanul.amin.maruf" target="blank"
     ><img
       align="center"
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
@@ -42,7 +42,7 @@
       height="30"
       width="40"
   /></a>
-  <a href="https://instagram.com/irfan.swe" target="blank"
+  <a href="https://instagram.com/irfan.cpp" target="blank"
     ><img
       align="center"
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
