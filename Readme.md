@@ -10,7 +10,7 @@
 
 ---
 
-> I build interfaces that feel **fast, clean,** and worth using.
+> Turning ideas into software that actually ships.
 
 ---
 
