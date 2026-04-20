@@ -2,7 +2,7 @@
 <div align="center">
 
 # Irfanul Amin
-### *Frontend Engineer — Dhaka, Bangladesh* 🇧🇩
+### *Software Engineer — Dhaka, Bangladesh* 🇧🇩
 
 `React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `TypeScript` &nbsp;·&nbsp; `Node.js`
 
@@ -15,9 +15,9 @@
 ---
 
 **Right now**
-- 🏢 Building at [CreateDevs](https://createdevs.com)
+- 🏢 Working at [CreateDevs](https://createdevs.com)
 - 🌱 Learning Python & Django
-- 💬 Talk to me about React, Node, JavaScript, TypeScript
+- 💬 Talk to me about React, TypeScript, Node.
 - 📫 Reach me at **irfanulamin10@gmail.com**
 - ⚡ Open to freelance opportunities
 
@@ -59,6 +59,4 @@
 
 ---
 
-<div align="center">
-<sub>Est. Bangladesh — Available worldwide</sub>
-</div>
+![Waves](https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/wave.svg)
