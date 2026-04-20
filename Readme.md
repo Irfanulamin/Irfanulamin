@@ -1,71 +1,64 @@
+<!-- header -->
 <div align="center">
 
-<!-------------------------------------------------------------------
-  Irfan Amin — GitHub Profile README
-  Vibe: editorial · warm parchment · minimal
--------------------------------------------------------------------->
+# Irfanul Amin
+### *Frontend Engineer — Dhaka, Bangladesh* 🇧🇩
 
-<br/>
-
-```
-Full-Stack Engineer — Dhaka, Bangladesh 🇧🇩
-```
-
-# Irfanul *Amin.*
-
-*I build things that feel fast, clean, and worth using.*
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-irfanul--amin-8B7355?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfanul-amin/)
-[![Instagram](https://img.shields.io/badge/Instagram-@notirf4n-8B7355?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/notirf4n)
-[![Email](https://img.shields.io/badge/Email-irfanulamin10@gmail.com-8B7355?style=flat-square&logo=gmail&logoColor=white)](mailto:irfanulamin10@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=irfanulamin&style=flat-square&color=8B7355&label=views)](https://github.com/irfanulamin)
+`React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `TypeScript` &nbsp;·&nbsp; `Node.js`
 
 </div>
 
 ---
 
-```ts
-const irfan = {
-  role     : "Full-Stack Engineer",
-  company  : "CreateDevs",
-  location : "Dhaka, Bangladesh",
-  learning : ["Python", "Django"],
-  openTo   : ["Freelance", "Collaboration"],
-  contact  : "irfanulamin10@gmail.com",
-};
-```
+> I build interfaces that feel **fast, clean,** and worth using.
 
 ---
 
-**Stack**
-
-```
-Frontend   →   React · Next.js · TypeScript · Redux · Tailwind · Bootstrap
-Backend    →   Node.js · Express · Django (learning)
-Database   →   MongoDB · Firebase
-Languages  →   JavaScript · TypeScript · Python · C · C++
-Tools      →   Git · Figma · VS Code
-```
+**Right now**
+- 🏢 Building at [CreateDevs](https://createdevs.com)
+- 🌱 Learning Python & Django
+- 💬 Talk to me about React, Node, JavaScript, TypeScript
+- 📫 Reach me at **irfanulamin10@gmail.com**
+- ⚡ Open to freelance opportunities
 
 ---
 
-**GitHub**
+### Stack
+
+**Frontend**
+`React` `Next.js` `TypeScript` `JavaScript` `Redux` `Tailwind CSS` `Bootstrap` `HTML` `CSS`
+
+**Backend & DB**
+`Node.js` `Express` `Django` `MongoDB` `Firebase`
+
+**Tools**
+`Git` `GitHub` `Figma` `VS Code`
+
+---
+
+### GitHub
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin&theme=graywhite&hide_border=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&layout=compact&theme=graywhite&hide_border=true" width="49%" />
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=irfanulamin&theme=graywhite&hide_border=true)
 
-<br/>
+![Stats](https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&theme=graywhite&hide_border=true)
 
-<img src="https://github-readme-stats.vercel.app/api?username=irfanulamin&show_icons=true&theme=graywhite&hide_border=true" width="60%" />
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=irfanulamin&layout=compact&theme=graywhite&hide_border=true)
 
 </div>
 
 ---
 
+### Find me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-irfanul--amin-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfanul-amin/)
+[![Instagram](https://img.shields.io/badge/Instagram-@notirf4n-e1306c?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/notirf4n)
+[![Facebook](https://img.shields.io/badge/Facebook-irfanul.amin.maruf-1877f2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/irfanul.amin.maruf)
+[![Email](https://img.shields.io/badge/Email-irfanulamin10@gmail.com-black?style=flat-square&logo=gmail&logoColor=white)](mailto:irfanulamin10@gmail.com)
+
+---
+
 <div align="center">
-<sub>Est. Bangladesh · Available worldwide</sub>
+<sub>Est. Bangladesh — Available worldwide</sub>
 </div>
