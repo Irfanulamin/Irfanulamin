@@ -4,7 +4,6 @@
 
 I'm a full-stack software engineer based in Dhaka, building clean, scalable web products at **CreateDevs**. I care about writing code that reads well, performs well, and ships on time. Currently exploring the backend world deeper through **Python & Django** — because there's always more to learn.
 
-> *Fun fact: I debug best at 1 AM with lo-fi music on.*
 
 <br/>
 
