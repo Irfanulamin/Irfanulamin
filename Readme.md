@@ -2,28 +2,6 @@
 <img src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.svg" width="100%"/>
 <div align="center">
 
-# Irfanul Amin
-### *Software Engineer — Dhaka, Bangladesh* 🇧🇩
-
-`React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `TypeScript` &nbsp;·&nbsp; `Node.js`
-
-</div>
-
----
-
-> Turning ideas into software that actually ships.
-
----
-
-**Right now**
-- 🏢 Working at [CreateDevs](https://createdevs.com)
-- 🌱 Learning Python & Django
-- 💬 Talk to me about React, TypeScript, Node.
-- 📫 Reach me at **irfanulamin10@gmail.com**
-- ⚡ Open to freelance opportunities
-
----
-
 ### Stack
 
 **Frontend**
