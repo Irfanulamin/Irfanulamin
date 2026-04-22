@@ -1,4 +1,5 @@
 <!-- header -->
+<img src="https://raw.githubusercontent.com/Irfanulamin/Irfanulamin/main/banner.svg" width="100%"/>
 <div align="center">
 
 # Irfanul Amin
