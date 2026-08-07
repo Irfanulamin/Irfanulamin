@@ -1,0 +1,228 @@
+```aura width=800 height=240 inline align=center
+<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 20, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden', border: '1px solid rgba(245,241,234,0.10)' }}>
+  <svg width="800" height="240" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse">
+        <path d="M 58 0 L 0 0 L 0 58" fill="none" stroke="#f5f1ea" strokeWidth="1" />
+      </pattern>
+      <radialGradient id="fade" cx="50%" cy="44%" r="58%">
+        <stop offset="0%" stopColor="#ffffff" stopOpacity="0.38" />
+        <stop offset="52%" stopColor="#ffffff" stopOpacity="0.15" />
+        <stop offset="100%" stopColor="#ffffff" stopOpacity="0" />
+      </radialGradient>
+      <mask id="gridfade">
+        <rect width="800" height="240" fill="url(#fade)" />
+      </mask>
+      <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#d65a31" stopOpacity="1" />
+        <stop offset="45%" stopColor="#d65a31" stopOpacity="0.45" />
+        <stop offset="100%" stopColor="#d65a31" stopOpacity="0" />
+      </radialGradient>
+      <filter id="grain">
+        <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" />
+        <feColorMatrix type="saturate" values="0" />
+      </filter>
+    </defs>
+    <rect width="800" height="240" fill="url(#grid)" mask="url(#gridfade)" />
+    <ellipse cx="400" cy="252" rx="300" ry="104" fill="url(#bloom)">
+      <animate attributeName="cx" values="340;460;340" dur="4.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+      <animate attributeName="rx" values="300;380;300" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+    </ellipse>
+    <rect width="800" height="240" filter="url(#grain)" opacity="0.05" />
+  </svg>
+
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '6px 16px', borderRadius: 16, background: 'rgba(245,241,234,0.05)', border: '1px solid rgba(245,241,234,0.14)' }}>
+    <span style={{ fontSize: 13, color: 'rgba(245,241,234,0.75)' }}>Hello, I am</span>
+  </div>
+
+  <span style={{ fontSize: 48, fontWeight: 700, letterSpacing: -1.4, marginTop: 14, background: 'linear-gradient(180deg, #f5f1ea 0%, #e6e1d6 52%, rgba(245,241,234,0.52) 100%)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }}>Irfanul Amin Maruf</span>
+
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 12 }}>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <span style={{ fontSize: 16, color: 'rgba(245,241,234,0.62)', marginRight: 5 }}>A</span>
+      <span style={{ fontSize: 16, fontWeight: 700, color: '#f5f1ea', marginRight: 5 }}>software engineer</span>
+      <span style={{ fontSize: 16, color: 'rgba(245,241,234,0.62)' }}>who likes building things,</span>
+    </div>
+    <span style={{ fontSize: 16, color: 'rgba(245,241,234,0.62)', marginTop: 6 }}>always learning something new along the way.</span>
+  </div>
+</div>
+```
+
+<br/>
+
+```aura width=138 height=38 link="https://mail.google.com/mail/?view=cm&fs=1&to=irfanulamin10@gmail.com" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 19, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
+  <svg width="138" height="38" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <linearGradient id="aura" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="#d65a31" stopOpacity="0" />
+        <stop offset="30%" stopColor="#d65a31" stopOpacity="0.55" />
+        <stop offset="50%" stopColor="#d65a31" stopOpacity="1" />
+        <stop offset="70%" stopColor="#d65a31" stopOpacity="0.55" />
+        <stop offset="100%" stopColor="#d65a31" stopOpacity="0" />
+        <animate attributeName="x1" values="-1.4;1" dur="3s" begin="-0.00s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="0;2.4" dur="3s" begin="-0.00s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.9" y="0.9" width="136.2" height="36.2" rx="18.1" fill="none" stroke="rgba(214,90,49,0.30)" strokeWidth="2" />
+    <rect x="0.9" y="0.9" width="136.2" height="36.2" rx="18.1" fill="none" stroke="url(#aura)" strokeWidth="2" />
+  </svg>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACRklEQVR4nO2ZQU7bQBSG33PFphVqkBq25QZkE8oyUlKpSzhBwwlwT9BygqYnaHqCsm+QsmxhQ07QNQEpRAg2AQ//GEeCkYn97JmYgD/J8swq77M/JRqFacEpBYqmFCia5yNw2tpsKHXzFcsaLlLEfY+9H9Xe3z4ViJ4rUMEuk2oQUQUTH3uK994dHO5jjy0YNus/cWtTDMz8rdo73MNy7gxb9e94kj6WcXRXD452ePix3qaAtMAs+kvLb7ZX9vvnWDtn9GlzbXJ98xvD17B9HI92+KS58R+vZ42SOWd+te06qbPmxlZASj/QCq7ZICdGPgrL1LhMKiGZWMQCEVaTSp1MDFkFNFaSEiUTQx6BkDxJZUnGJLdAhCipPMmY2BLQpEoqbzImNgVCZiVlIxkT6wIRD5KymYyJKwFNmBSroGIzGROXAnOhFCialybAAxx11rFwiOwzRAL4alyZXFx18AGfsXUA/1pafu1PLi5H2KRCJIATEONG0SEIIvQWlw3GOJz4q3+OugQkM2US0ECiRgF38TbWKRc8IE+1MfwxNiGSmTILaEZbjUq+pO6Smf5iT5HMlEtgCt6GNKnx/WRMJDNZEdBAImVSPDCTMZHMZE1Ak5xUfDImkpmsCkzB2zCTGs9KxkQykxMBDSSipEBCMiaSmZwJaHRSuFFSMiaSmZwKZEUyUyngAslMpYALJDMtuAAPtEAHq11ciTw1AWbvSzjQaeuDHyjl43+C99g+ytMRwJNn7lZ7/zpzGcglpUDRlAJFs/ACt+AdbTx8tvfmAAAAAElFTkSuQmCC" width={15} height={15} style={{ marginRight: 8 }} />
+  <span style={{ fontSize: 13, color: '#f5f1ea', fontWeight: 500 }}>Gmail</span>
+</div>
+```
+
+```aura width=138 height=38 link="https://www.linkedin.com/in/irfanul-amin/" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 19, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
+  <svg width="138" height="38" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <linearGradient id="aura" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="#d65a31" stopOpacity="0" />
+        <stop offset="30%" stopColor="#d65a31" stopOpacity="0.55" />
+        <stop offset="50%" stopColor="#d65a31" stopOpacity="1" />
+        <stop offset="70%" stopColor="#d65a31" stopOpacity="0.55" />
+        <stop offset="100%" stopColor="#d65a31" stopOpacity="0" />
+        <animate attributeName="x1" values="-1.4;1" dur="3s" begin="-1.00s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="0;2.4" dur="3s" begin="-1.00s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.9" y="0.9" width="136.2" height="36.2" rx="18.1" fill="none" stroke="rgba(214,90,49,0.30)" strokeWidth="2" />
+    <rect x="0.9" y="0.9" width="136.2" height="36.2" rx="18.1" fill="none" stroke="url(#aura)" strokeWidth="2" />
+  </svg>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA3CAYAAABKB8k/AAAC2UlEQVR4nO2aX0hTURzHf9e0bEsdLBQs3SgyEhz5EiQYUS8GST1V0GBvk6gHSfBBnxMKjF6kfFtgUD0VE/KloAkK9eBUKBSKzf5A4uhOc60sb98zWVu7956Ngnt34nxgd98zdtj57J577jn3XoUERwrYTUbA1Tvj2kitntGowksCoNBmrMpR+1i91a4qrPHfU6sz+NhLQqHFtjtq2xVnMBLSiAL4RDjQfe4ygc8aehHKwgEBVXEEI2i/uEgBuylJ4OLRevI17UIimnv3he5NLyOVB1yBup3baKLP97vxWSILKp26OY9kP1yB0UAL+TsakPRcC8dpaHwJyV64AuujndgaE19JU+vgSyR7MRXwuHfQq6EjSOY4eyaxtRdTAYbQe4Bx/dw+unJyD5Ke/gdvaOTZRyR74Qq4HJV0J3CAug/vRinHyNMP1P/wLZL9cAWy+JqckHAjEYWjCZwL1pHKg5IEypn/W6AZQ6nHXY2kJ55I01LiG1KOzpY6bPWoqR80/z7X7dr2bnXJwu9PLiYzXTT/u8XgCgycbqbBbg+SHqMzsdmwm516sKnJ/UutdOwgf/kRjq5QT2iRkl9/osTHMgE2arF5FRvZSoFNGruG54pKWCLAGsMonBQWg+2JC7dfI5ljicC/cGjghe5Yy6fsBYx+Jx/LBVh3Gp9NILH1RiUWSw3c44IdP2wAMMNSATayjE1/QsrBzvJPrvIPbt6s1zIB3j95+UQj3Ti/H8mYshAIhhZM19LF1h6NvVOmw6llAmxMZ2daM/62rmUCvG7A4NWVAkZIgQJ4daWAEVKgAF5dKWCEFCiAV1cKGCGEgB+LDX9HPZKesall3dx+oq8NW2O6ho2n0ll4ddkFAbOrgVwBEZACdoM79c9VjZQ/r/EJgkJaEgKCPyux9bTKWhRlD17CgMbPVjlqjuMdd2IgsZFeO6ttal4SAKVCiVVV1zzKPC+EstBIAbv5BeCtP9ddzdhIAAAAAElFTkSuQmCC" width={15} height={15} style={{ marginRight: 8 }} />
+  <span style={{ fontSize: 13, color: '#f5f1ea', fontWeight: 500 }}>LinkedIn</span>
+</div>
+```
+
+```aura width=138 height=38 link="https://www.instagram.com/irfanulamin.dev/" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 19, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
+  <svg width="138" height="38" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <linearGradient id="aura" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="#d65a31" stopOpacity="0" />
+        <stop offset="30%" stopColor="#d65a31" stopOpacity="0.55" />
+        <stop offset="50%" stopColor="#d65a31" stopOpacity="1" />
+        <stop offset="70%" stopColor="#d65a31" stopOpacity="0.55" />
+        <stop offset="100%" stopColor="#d65a31" stopOpacity="0" />
+        <animate attributeName="x1" values="-1.4;1" dur="3s" begin="-2.00s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="0;2.4" dur="3s" begin="-2.00s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.9" y="0.9" width="136.2" height="36.2" rx="18.1" fill="none" stroke="rgba(214,90,49,0.30)" strokeWidth="2" />
+    <rect x="0.9" y="0.9" width="136.2" height="36.2" rx="18.1" fill="none" stroke="url(#aura)" strokeWidth="2" />
+  </svg>
+  <img src="data:image/png;base64,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" width={15} height={15} style={{ marginRight: 8 }} />
+  <span style={{ fontSize: 13, color: '#f5f1ea', fontWeight: 500 }}>Instagram</span>
+</div>
+```
+
+<br/>
+
+```aura width=800 height=208 inline align=center
+(() => {
+  const tools = [
+    { name: "TypeScript", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAACpElEQVR4nO2ZTW7aQBiG35mQhlaRwg1KTxBIf9RkE3qD5ARJTlCyo92UbhqW3CDcoOkJ6iwKVVsFOEHgBlCpaiIRf30nBQsbm5qmGqDyI438jfHYjwfPN2NQT0qNwg3kFEAWi09nBepI5Uv1S1ayWB46RloYLBWJtC0SaVsk0rZIpG2RSNsikbZFIm2L/01a2vy4x+Cu5Fg2WIL0Wc4UpKOhHQwRJRkRyQlUFsAey0TbSGm+1rz4Vtl2cEd4fgfALsuIroIqX1S2a4hBSHvb0tLeSD8oOOV8j5VY+Nv/xqZ0fyN9PzuLsGGsvUektNYoakGLoR+V6n9998y3v1BuZn5c/9xkOMEAqEKQUwrHFyc7Ve7y8fhVfY8CByLIsAoe12NxVl314XNlu0M/B3Glp3DerOwUMMbwZ4iPDCNJ6VQ+eLNbpU9lDrg3DENRkJoolQNvmlUPa9Jso7jxwWs7CPRiHKxJr0E9Ml83xjCPhit4z3AmrElHDeyheJXhQ5ZYWJPm4DrjQNxnGMpWqXEokDJiyFuTNkT19jhxet6qNJT0lOjjOLPhtMxiV3qIYiq7B/02ODCDDB+ZU4Y+5iI9Io48/WoADlg85io9hsOUeBQm//T1l9zAHTQZeiyKNE2ktyJ6P2ygBh0XR9qg0Gqe7OQZ+Qg6WpM26Y7H1DAllZGJcxuCjtak2UaZ1eD3qyuu6twiL73J3WNIO6VXD4OLquelRvYacsnQw6o0Nz7MIBP3JrOeTrei1tlbpXpVgJcMPeYq/SfMTQUzh2FhpW+nczOxiMqw6mN2aY7wFFBk5OEq5Fz3dr0QDVMaX2hrWmtnfXXtPOxxMD3rYrDLc+2xWkAEs0v/a3gzYb05jflL/wVGuoPpuXPR6I7+G69hOcS7nKQOfwFcbNzejuX5OQAAAABJRU5ErkJggg==" },
+    { name: "Python", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAEBklEQVR4nO2ZQVIbRxSGX0+UCmZj3cD4BFZWkGwynABUMdlaPoHJBqhsGDYpog3KCRi2kVPIJ2C0iZWV5RNYPkHQBlyVYTrfG0kxwpbUM0KMq+yvqqtfz/TQP91v3uvWGJmD1d3mhrFSESO+gFVbpEwZwxiJRLESeaXSi79+rXZp5SazaD84Lb+7iJ9ZkW2aZUoObM+IF3Tqj09oZMZQMrG603xFVaHcBt17y6X1KKieYzuTSfR3O883E7GnmAOMvMA9ulg1Zv4BdWbUdTq/ba1jOmMozqztNAMrso+pD5506ls1AXWZy4u4JyL3KZn5qlT6NoufM7Y7Y6I972nn8MdQhnAvsiI/YGbGE/n5ZX2rgelEbtG8TK2/6z9VMWRt73TFJvEbzFwg4oBVC8QR+rszLjqla4zpWms3scuUXCDiTkXfCoj4InoM9V2RmOJAkobBJ1gzQcT8olWcMfYBZm5sktTw9Zo4gIhUNCu5T3McT9qdw61IrkH/93z/y2kluYqP2EP4cocgIhVNtrU0P4Jt3Vv++ukoc9J/wNrenzVm5xjzzkHEDNH0uZY5DSWd4as4foVZCIiYKVoZJTT6M8u7zbO7donrIMJJNG7SI6E9NEXPsuKJqb6sP27NFj3oa3hjA3ru0y4M48k6ldhEzqimY8zvKjqyOTc6t4EReYtrrHyw7Z0A/duGJfkHu0wpBF1udQ0mL7RuyehcRVuMIugTDbY1GmR9r+YV3We5utSZ4JnWN8ulUJPF8ABxxuUKxYk8otMZWlryWjoo7Vyo2HcXVxtWbINmmeJMRtH2NenUV7E66OXl1RNeeZ89daZByQkVqjIlF5lEj85yw5R/xKXcA8+Dij6nvk+ZCn54QmiquYamBdJ3jtOj0LS688cb/oUVKQgmjzi9+7yBkz2jPRV1jSSJy05Za4Eg+sC4Lvcg1Xor+PIxzcLQyTPU4uLXqehEfFvgPgWxbd4rn1p/7mpuJyJHmBP5FETrLGv0SkUrs17IokWT0NIDgMD/ogfJIg7FygbNDyhKNALb4klw/XDLtXF085LE8SbmOF4plCSuWUfRhrjOYKHMRanXOaz25Ab8bXdwocC6ijYmZElDccBa8/Zj4iaxMNFZQMQBUSEQR+jvzucqus+IEf6wwtCPZAgiPlnRfeKsr3EWW7+MtWQYqRCxONEuSWgSDNRGmC9DhtvbY0y9d8C9QByhvzsaDrOc5W5wzpesh3qAwNZVC+3wIIuIxYlWGCyyUzLndPT7oQmt2ApDb3IhZbTtxXQis+g0c178G/HoI7kV7Gt+6qpgOJNZ9AhmPBCRms35/RD6DN5YWi41Ri7jCs/Nx9pe09c9ibAIAnaC6zBQm0qJcJFuFne4yX+WkOqy+v9a2wAAAABJRU5ErkJggg==" },
+    { name: "Node.js", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAGIklEQVR4nMWZj3XaSBCHZ5QCrA4sV2A6ADfg6Bo4RAXhKtBSgUkFiAqC3cCJCqJUcHIHuIBD+XaRhLARf+WX772BWe3szE/LSGBZpWNG88fhupApro+tPJXxbPgyx+8MxTohmoWDQosnkaLH8B2aaaH/JKNFKh1wtWjEBqXYkOERdFGKz+UKLhaNWF+89beiECMNEPXGq0HYlJgxJ2M4qRumKlaqtM/a+07MivHZXCS67FsjIoE00ELmIt64KQbhvsh6WqgMGTbJ6XdzSb8rdjIIGLBrMbs3kAaIXZZiM4Z7YW2vFN9n2EBTPp0Ja1M5EcWOQkFf6NtCikgaUOyVVyt2wfAkyBVy0ogvbhnWqGgim35fMTyIYgeJ5o8xfTvG9TEHYunbYpqMXoxcSDR7NGQaI/5DvyfDlwl+K4rtxe5Ioesn3EAa0ApzWsFeaLlcCTUCWsbQMkPZJdfCs7u+wP+AYjuQqMfZI3Zv31qxqXQMNQel+L7soCmf6oiauTRQrIbFEbs7w61h0SuvVmwin4ytz2YZNu1WGrDrVngiJYo5WBAg+D/cGnZ3wu7Su8cvjq5Ah8+uj9n1mGENwu/QkQso5iCYQNfDBMgvxIZV0J8APQHiF4i/F0D0CD2JQEP0oyHAnR2iJ9fcGZpQvKdf9EYK7j4qKw5J8X/xhoAM9yBtmi4WTfy0UC13wd1faxEIRaC7r4cMfawF91uEWtu1TaixV9M1olPi+7jEew8UTgUQ3KPN/sX1sZNg/Yj1ibyDGoYaMS4xW02dikawj+CfHAqkhFy/eEuFLw7MEohIj7X3vNdUOaQBNQxxMS7zW02KOdoC2iA+Jb6PS/ymIKIjRM845KiOyx6I7dHdKbe3G4bEyjM1Q9waahhqxLh2fsK8EehY9E6OJTkGcgCEh5zkD1zHPHqp9Vje5ZuQzwjUQW0BbRCfEt/HJf6jaMgRccf7QViTseaeC/KNTAF5VlLCXJ2vqUkxR1tAG8SnxPdxia9E77YH5BRY8CMoE/2Sz/7+seTYyVDDUCPGpcZWk2KOtoA2iE+J7+MSvxEtwHG3c7htsJOaqRSZPZli7S1Zm8seyGXIFeNSQyaVpk8QHfrlN5mbO4W239LUMOSJcamx1dS56ArEByIScgIDEQmIPbT7lhV57sizwndQw7AuxqXGVtOniW6DkxmISMDJ9FgZcsu7lRLqfqfuGNdBDUONGNfOTZgzAoo52gLaID4lvo9LvPfAW4aAGe++cgEm0fMI/yjkWZDnKy55dm+TzBnmYlw7N2HOCCjmaAtog/iU+D4u8ZudHiaPBUMHx+44lssRyGPIE+Oy5g+IjmZfc3b7lkMk1uSU3R4mX39K+VSKus/UDXEd1DDUiHHt3IQ5I6CYoy2gDeJT4vu4xHsPG9HbHBs09dSbFuvilfmMAw76uqfe+n5d6LgSbKnySEkzX1NTx6JDnwvMHr/n8FlQc07NSBpQw5ArxrXzE+aNQKeiBUrhhrlvDI+y+fre/ziCGjZPjEvcVlPnois24iXkBAYiEsgGH1thlpw/6VLha5611bEdqGGoEeNSY6tJMQdFxvxueMIFzdiBv0iWSwskTEnYxyWh90BsKh2CnoCL+gefQo+hrTGiRiLQFE3Qu7/GVUzb083PEo2Olqex21toLdrCggjhM9wmH57mE9cj7ieuo5nwGsqnsVNcH6sh/4j8iZQotgOCApF1Uu1ig5ydT+xf1QVhUiamjd6S0bPzL4WaA1rhScpWqKCPl/R9hOBcGii2F5uIJAnJbuUA73fhHKgRkN+KDRnWsBGvvFqxqexBsYOQOCKpIfkH8ezEpLqiz4GcVd+OGfqYA7Fv1Joey3lUdAWFQtqmhwtexkvGTuRyJmXfGhEJpAEbMCfvmJwrhgdR7Co4GbtrQ+4yvyiYSgvEcfG6VhhIA8QuS7EZw5NQ7CIQ4VNx5ymS/ZEkhdIy20+gERdJA1rhlVcrdsHwLBS7GASNZdPvNwwrVtxl3NP8Q/9FYHenCF5x6GyuEm1BuE+vT7lFDhkehFaYI9YgNpcrUKwTEN8rxfcZ7oDYZSk2lQ5QrFMQH/Hx25a5pRVeKWHFJtIhvwFiZSVqEbzTJAAAAABJRU5ErkJggg==" },
+    { name: "FastAPI", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAD30lEQVR4nM2YT1IaQRjFX1OpoKuQE2RyguAJJCcInkDcpKJZiJtEV5IVYzboIpDKZvAEegPHE4gngNwAVkoqZed99BBAYP7Qg/ir+oY3KMPjTc/XPaNgS6PqQGc2ocBXXYDBgakOTAFK+dDoQD1cY/eoAwsUKzleLYd+fxsPKAHIs5LSQgZNZLPn2Dnocj8RyUxLqlDHTKyEdOjSwSWgvyVJP77pxgnN6jJVjpU2XSZfwafDM+pIok1LulpdUOVZy6YFpbeiUg83/et7Hn8frqhyrKeiixeZ9/j4pUU9k/mmG9USE65R5VhPTTdI3McMZpteTcKPmZv4tGkzhm+ocqxVI4lvMPEOxpg2XXfFcJ71XGhh73CDr/+ZNP2jWuHMdUxlgf7No5aQGFVk/9+nmEazj38+qiBgZNoMizaVHUrv8HQ2EReZXe/6HlWRNY+JYTIyXa82ubsNK5jy3pGDuDSqBQblUTmIRJ/z2CUQxZIPO/xwm8qOR6cxlLpb47bMio/SbyVtYzqVsYwe1rNO5ALItFOPKs9KRhCKMV1329w6sEHhDLuHZar5/HT3uTKsYPF22mEneauCX37DN+wITh1mYS62C6oCbHmR2VCon5SZe427FowukinqJ0X+3aPKsVJAHdB0tUmxDRuUfs+UfYwj6d73a0hv7R2gz8W0z2/dxMLoa6ZcwDiJWllS9DVNu5rKArWFva+XFCPEdBg6k+NGhqSD5HQtTSecTIQUxrid6SRTtozxu/4xVZllhY3peJOJYNrqBZWDFFjcdDA7IQpzQ1xBevRoutqh9zdIynr2dWjKZj0j6eZZKTLoHlWfpjeRiJDJRLCfrkOQPr3IYmnelG0uNo+qyFoSMiNKT9XqinsxmTGZCOY4MhxyrOXBwBRf2DvdLrevWNE8nrJNusdUZdaSMfOCMd1wT7lG2KeK4pZLwzxfDaaVeVSj95ZJ0LEC04MrvU0Vzvhkkn4ri4ZDg9/fMaaFhnsJjQ9UczCnJviBHt8o4EkZdawx0wMzbarZyKnJ8M5hNY/Kekw5LymDjEwL4WPbB5463QAJjGMZAZOmhbrb4vYd67kwefGTadOmI/iI2wKXy8SwGDJtWjATxRXVKunxJrYQ76npEPN82qNaBZJwkQn7mMF808JqhsrchIeEmxYGrRBN/usmlg7XNetrxdAlL4k2PcSsBstUy0i9B6gKb5BPqSOJb1oYLI7ueWBV5F4a5jl20cRathKV7jjJTA8ZmP9T4ulkLdTTb/nVTay/bCYxO2Qx0+PImJeZ8gEOj1aAwcHgFo7rFXloKGj4kGXA2trlIkbH+QfIV56TdF6OigAAAABJRU5ErkJggg==" },
+    { name: "Django", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAC1UlEQVR4nO2YgU3bQBhGPxuVCloJOkGvCxB3goYJYAPSCcoGNRN0hKYTUCYgTFDDBGaCBqktAqm+vpPiKjh3TkLtGKl50un+i33xy+nuv3MitcDWnrFUXjZi7f/I8pEmbO+ZlJs/Enq5vcpnHGc+aIK19Fq6hrX0WrqGZaRfJqZfFOorwK+rPFWFzqUfw/8r/SIxyTNpPM7yXPDkpN0ctIUObKS+tUr46CGRclkZBahK84MHhdURoZfby3yf6gERZSG2E3OI5Kc6oUWoSreWPbZ75jPCAzXASqS3euZcNpySlqV16SZHuKRVabfgfhc6J1yEC4qiSLv8yB5hkFal500LBG8oxz+zfKgpdhOze1foO6GX1qRJQwlb6zdCL8jebEZKyrxcZZk83Zj0VmKOVZDeAsSx3ldHeJpupPfMSNI7yiyRrkn4RjXQ31J56USaDmecvA4Jg9DfUnlpU9pSeaHDCdKpaqjrv5aehk0lC+VbOnxBeqAaOpHmoSMF5jQ9chbiG6Ig9LdUXlqT5ouGVuHjYvXBVbqRdsfQQqeEXug03oz19kltLm4rvrfKmdc7NL3QcWyl9Hmss6p8J9KOeV82A3NdC7wgtCo9Ge0Ro92j2RitSjsm4jniOzQboXVpB+KGo+ZQoRS4JB7pr1Y6IPRxgXRfFeZKl3BcHTDix5QezUdTlWbRjhQekH+TLkE+IR26A1NiOVPL6jXxLJwGuZbzgDGtLIpZqNQcaTPqvyBtqUI0I90kC+wHJxwZUlXg8+5gPg8Z5iNCL6GXjc6k3TSre6VzsHG9YuMaEz6gE2kykkul5yzqhKYXxIIvG1xbLQgbhE/rhB3VLDPNSqXJFB94YGpxpxmEe4Kj7OB6+7jRvWM6yMpoDlGkS/6e6PvmcklEWQmTf6xShTcSZ3MdRzokY2S0gqxMuiQkj8gZZ/RB3QiXcG83uClzj7xlKmxEGoQWnY8/qaYkTCQ7DboAAAAASUVORK5CYII=" },
+    { name: "React", icon: "data:image/png;base64,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" },
+    { name: "Next.js", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAADsklEQVR4nM3XjVXbSBSG4W8qsDtArgBRwY47gApiKghUkFEFkApWrgA6WKkCKxVEdCAqYN/ZizA2wtaYeOE95xk5xwfroujHOH28HH8hbjNJXpt1aNDKtjXi9uAcDimT9A0L2evUWkmlpCVaJeaQUibpBxb6c5WSCrQamcPY4rBBxyvIht+bw75y/I24PXYNLtBqR/uG9pLuMMX/VYc5Ggzm8F4L2RH+rC5RaiCHobykf/DZneHNER8aOkcceIrPrkMcvNWrhoZeIcdXqUEc/KXtoYPs1vbVKhD0nENfJuk3vmoztCKHvlL2aP6qLbEQOcQypR3lGpXWedmXpjE9oJSVKe1AzdA6ltgtvmNsBYLWTdHgBPuq4WV52Z1qbAWCY4n9RqbxFQjaLEclaYJd1fCyvNKGbsXRdixxZyukVCDobQvtf4rW8LK80oaOnTmWK9wgpQJBVo4GfaV2n6c1vCyv9KGvHUup3TsZqkCQFWRPrlvEpqgknWKoGl6WV/rQS8dSafyV31cgyAqyB1J8ajWIZbLXE2xXw8vySh+6dixPSK1AkBVkQ7eywTvEznGH7Wp4WV7pQ3eO5QmpFQiygmzoWCX7LtwXtH6vr4aX5ZU+tByekFqBICtoc7DX78UqbZ5+Nbwsry8ydOwC94hN0eAEsRpelteBQ3eYIKUCQVbQ26HjZ56hlZVjhVgNL8srfehHx1Jp879vTAWCrKC3Q8cazNEhtpA9eOK/Z4hbr/Sha8dS6uP36R8YqpT9rddXyvZVyX4hr/Shl47lCjdIqUCQFfT+0LFLlLKmqGQPngKV0oe+diw5VkipQJAVtHvoDnM0iGWy1xP8xHekNHMssVbrq3tMBYKsoN1Dx1rZhdkhdo47pPaAzLHEgvbv+HUFgqygcT97jwv0BY37udf9t1/HEstk36nHVsnEvMyYCgStq5R255qhdSx9pezKPnZzVLKmaHCCfS2xEDn0ZUo72ofW4QytrBwr7GuGVuTwuqD08+yQGsTB+65wg/cqEPScw3YNTnHsfuIKfaWGT89fyPHS0NCZbPAJjt0lSllTVNo8YI/wsnlechgqxwrHrsMcDWI5Kq0PWHyv0lYO77WQfcE5dg3m6BA7xx0uUWogh13lqLT+zY/VPS7QN0WHwfYNHctkH3qKY3aNW+zNYWxBx7sdPiIOHDSilKFjmeyDv+FPtUTQ84NjTA6HlMku1IXGPYK3e0A8sqV2nLvv5fDRcnjZNpNtJ+j7hQ6t7KKuZK8P7l/iLd/6KJCMKgAAAABJRU5ErkJggg==" },
+    { name: "Tailwind", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAADLUlEQVR4nO2XX04aURSHz7lSBTRRV1D72IpxdlB8aYI+lB0IKyhdQekKCitwXIH6UEj6IjsQo9ZHdQeYyB8R5vR3B6k0HWHujExiwpdcuWcidz7unHO4ML1CZtJRMZOOipl0VMyko+JFpFeOr1barbtdrJbGkpYQrdEjTHRNJHUSqrGKHXUy7xGHA2sGx5VtN79BsoDQH0y2ornvYeQDSy/+urB6PTmA8BqZItJQSn3tZNZtCgBjGBOvXq45Tu+EmFcQBkYx54OIB5Ker5yf4MXCCA/SpZtJ5THzhU5JxqsR8epFzhHZwxQbTUfioMj+wllIbGJihk9xLdxq3RUYcyMWKudXSMob5ljOq5h0rj88iA0RM/kJ4m5KSv8AKVVmxL6Zr/zOEjnZ7nYqR2MY7EizBpFNhCbUFVOpk0ntY+6iZUX6X0Qkx8y399upNcZ138SrZ+lOZqNGPggh/izYZbdwjaRN0eLtTtMWoc8IQ6Hr5z6TwpPGHGPqoNvYRLSLEQyh02RyMd3YetdAFI20BgVcEJIibrlMBjBxOZFIFofCmsikNTpd3JbFnBOit7g0jn3FYnvV0ETpeOXyo0jPEqVWEA5gVLmoU6+W5xfdFdDvLZK+hdAFH6bBLHUv0VE8pXWXcIh3SShHY8Cbr4XZTsaT5dHHN21w3yfcx9dp/pgk+x84AGGh4v3ORhnR1MG9BrjC7eYxphZGMCZ8q70UjOGyUDnDMRNnh5AwyWEisZSfZrq40qOHoBeinkwsbvkV1zU0qfhGcaXRQ6+EZBW5XFIqZg+7gk6ZTqeVdRwp4D83cckEX+Lz1fM9EnXU3f5wiNAX7O4ypJSayw5lvQj4rVZ/E+N889N6HfN/GLS8/gF2bVUfgsgAnv95Vkwml0qTdkQTUBwPiWpojTV6hEXSQvpH8NMhiAxgnQJ+hIcEFfcEZ4ruTsrCzAhsgjluSoUuXLlVHLPGpeRzBJLWDMSdEpZYRmgEbnoTi3HWK9f9gPcH57GYimSQLl6nNlNCSQ/R8vhJlMVqaeSpJSMnONzgBn/quF5LJBbtMLJDsObrYyYdFTPpqJhJR8VMOir+AGsPYP32I7bFAAAAAElFTkSuQmCC" },
+    { name: "shadcn/ui", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAACD0lEQVR4nM3O220bMRBG4ZkO2EmmBJeQDkJ2kI7IVEK4A7uS2BUkZyIoIOXb7mp2pQN8A/CF+FXuM0NHQkGTIcW9ZTgPPjftnB53kOFy8CvG912NNlwO9gqaDCnuIcOiwZ7i1hkWD/YUt8ywarCnuFWG1YM9xS0ybBrsKY7OsHmwpzgyw1WDPcVRGa4e7CmOyBAy2FPsnSFssKfYM0PoYE+xV4bwwZ5ijwy7DPYU0Rl2G+wpIjPsOthTRGXYfbCniMhwyGBPcW2GIwb/gPdLOddk6EgYK2gSV0WWU0/K2ZqhI2GsoElcFVmGFFsydCSMFTSJqyLL3KNy1mboSBgraBJXRZa5ZzwoZ02GjoSxgiZxVWSZ+zdYRF6UszRDR8JYQZO4KrLM/R8MUSzJ0JEwVtAkroosc9NgT/FVho6EsYImcVVkmXsz2FN8lqEjYaygSVwVWebeHewpPsrQkTBW0CSuiixzHw72FO9l6EgYK2gSV0WWuU8He4rLDB0JYwVN4qrIMvflYE8xZuhIGCtoEldFlrlFgz3FOUNHwlhBk7gqsswtHuwpPENHwlhBk7gqssytGuwpDB0JYwVN4qrIMrd6sKf4jYSxgiZxhQ32FH8wVtAkroosc5sHe4osp49f8RNN4vJ/s8w940E2DvZ89F7tMtjba3SW0+ixkMHeUaPDBnt7jfae8A2P+I4XhPQXW7ySzNzeL3gAAAAASUVORK5CYII=" },
+    { name: "GSAP", icon: "data:image/png;base64,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" },
+    { name: "Motion", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAABOUlEQVR4nNXWvU0EQQyGYW8HdEIL0AQxnXC0A8mVQAmU4oh08SuEdDrdzf6M7fG+0qfdieYJZ5JWr/OD/MiXzPJop7wmeZeP6SR3aqNpBLwbTdlwFzRlwt3QlAV3RVMG3B1N0fAQNEXCw9AUBQ9FUwQ8HE3e8BQ0ecLT0OQFT0WTBzwdTb3wLvTLfLKL3+xvT2p7ls/p276uRaJJbe7waDSpzRWegSa1ucGz0KQ2F3gmmtTWDc9Gk9q64CPQpLbd8FFoUtsu+Eg0qW0zfDSa1LYJXgFNalsNr4Imta2CV0KT2hbh1dCktia8je55Fy+8iXtqo2kvfCia9sCHo2krvASatsDLoGktvBSa1sDLoWkJXhJNLXhZNN2Dl0bTLXh5NF3DD4GmS/hh0PQPFzkfB01/8CdDn+3k3i8GsQs96djE9AAAAABJRU5ErkJggg==" },
+    { name: "Three.js", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAFFElEQVR4nM3XgXHTSBSH8b8qQFSA3MGmguxVgKjg9jqwKyAd4FTgTQVRKrBSwYkKEBWgqyD3vXnWyHZkEgMJfDM/5FiW9Nayk6GQ1OAdbHuHDn90NvQaJQZETQto5YsY8EdlQ9dYIsqr5I9rRElf0MAW0OG3V6DEN9jjuaJ8AeYNGrTyRQx49cZBOyT5dq4SWyzQYcB7tPJF3KPDq1TAWqOXb48rYQPfYEC9Y9k2yrcPaDUtYsCLVMCqkeTb/QI2uEaWVEn6F29xXCU/PuqF70IBq8QX7A8TsMUKWVO9fLgOcwVssEAr//kBraZFDPjhCox1SPJtwBbHA1tZ/po1jgsYj4uaXhcQ5Yu9RCtfwB16ndn+0Gv08hNusULW45J8gKTDAvaPS/IhzX4lovz5KL8LDVr5Ip5sf+gaH1FpuvBclXy4BcYC7Ln94yqd/vyPjceVuMclGrTyBfSaqcBYiW8YsIYd1GGuXv4u9ZouvELWYb38zehwXMB43HKnQ5QfE3XiLuwPbXXIkir5Qe/QoJUfNMDK8uc6NLiSP3dclr9mjf0Ctlghy/cPuNJhAVG+iEs0uCn4Z781evnWqjQdFOW/YRqUCFigRoe5kny/GQvYYhzYqrFE1Okq+cftpuCf/Wok+XauKN+X5H/SW/mF7zDguEp+obewAhok+bFjJb6hwFy23xZ6jXz8okqHF5krye/EgCwfJGq6C3foMNbLF1oiyx93OM6eW6LVYQEbXCOLChzX6/SJk3zgqOkCWV6UHxd1+F34gDe4QNT8ea01BlxpKmCLFbJ2zQ2d5SdeY78kfy7K9yf546THVfJ9Nd7DyvJ3q8NcNZaI8gIeDWwVOC7JT2DGkg4HtgJuscCpkvy4N7hBlP8aa+V34h4DrBJf8BYBW6yQdVSB4yodfq6T/B2o0euwAQG9HpfkA0f5gFH+uoAoP98lWvn+O9h2jU9YIWumAnP1mk76D6J8wOOanazDknyhUX5clg+XdViJKL9WlH8X/kOSn3e2AnNl+cB2gii/8FxLBCRNfcQHRE3HJfnPSaersUaNDic7NXSS/5ppdu4w4LiAWyxg2TEXiDp8fSX/jC4wV5IPHPXEwFaBuSr5l+If1HiPDln+5bHHYwMCPmJu4LFevq/XYUlnDGwVOFUvH7iDVSPKtw9o5XdhhTewc0XND2w1O1lTSWcObNmFTpXlJ1rjuEo+fJTfBetK/jHqMNcSAUlekp876vQxsxU4VZKfMOl0G/yFd7hGjQe08nf1HgOsgFsskOSLrNHhrAqcqtL3vzwbFEjywQJ6SZV8GHOJBq2mu/AJHxDlx51dge/Vy0/ea6rELb4iyWt2sg4rEeULiPI78hlRPziwVeB7Zfm7lOWV2MIunDS1RCXfnmqDC0T9xMBWge+V5BdJOj2wFbDBBeYa90X95MDWU0NX8kHtgrb9jKT5bJhKvt1vgwtEPd73QxV4ql7+v4rPSDpdgyzfjv3yga3nDJ0l/Y1WPtA9Ohy3RCXfWhsUSPrF2UmfKsnfqQZR/pvgAa38uXsMCNjgL9ziK5JeoAJPZcPYEAuMVfLho/wvYitfwBodPiPphSrwnAYE9Jqv3vkbN0h6wQo8p2Yna74SW7zoOzz23KGXCEh6XIlXG9h67tABt1hgvxI28B2u9EoVeG4DAnp59niDa2S9YucM3exk+cBbrJD1yp0z9BIBa/y2ga1zhg6wz3WJ3zawdc7Q1oAlsn5j/wOeBH0d+/Ic0wAAAABJRU5ErkJggg==" },
+    { name: "MongoDB", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAC80lEQVR4nO2YT24SURzHfw9itItGvAGcQDmB0xUz3QhLY4D2BNYTSE8gnkAKMS7BTWdYgSdobwA3EOLCGtP5+X0gqaXDzPs3TRd+kpf3hUwfn768vyMoJ4JBUA+b4QjROblIH34+fHF9zZO9/ceVUWO0wFdOcS69Fo6HiGXBdBq1ow45xqn0WpgnRFzCxxX4geOoFfXIIWjTDUnCG4rFQvX8zfklohOcSNeH9dLPH1cXiGVKRCyKRXHgSlygWFPrB0P0cB0xjfne/pOqi4lpLe33/SMm+oSogBiNW2EDwQor6fWw+DVDL5fwUYkCiXdhK+wiGmMl7Z/5HRb0HlEDsbBdv42l17189R1RG9v121g66AcnMfEHRCMwKZ+Z9raxdK3vz1CVyRCbsS1QtFlvJPEFog3zcSuqoNZGoGhjNgHvIgQdRM1oSpqYSff9KRO9RLRDiI/jZniCpIWRNMYzo7KHxeW4HVaRtNCW9ge+x0wTRCeIR1SJXkdz0iA3aYzXMzzXRkwFz2mPa21p1fVZbiAqk1U+p7vRaEurrhxSRvW5/9JJKEtjrGJMdxGfo+zkwUkTU4cz1vP7kVY89D8safUlT0m6IERD96WOtrTqOVpV2uSmri0twRCZcoaMovQSJ70Sai3MpBUm40qa6AhDqY16F18hXUethUDRxv/il/k3zRB3spKOyUv75/DjRm+f8HdmYEL20npRQXqJXi6h1sZG2oP0BDGRLGlhsNRtMJaW4Fw9QvUK5Q4Z0ktcbMv3frGV/F3+5kT0FOUWadI2l1qJlbREvvGPmYeIt0DDx8RU5i1pfP8Nk88jC9CGPbVB0CXmt4g34P4nYl5sSVsNiw1OpCWYmD1MzDbihjkaP+Wbc8oSu5+nu/slgXbdsb1TovEeY4Mhh8IStOuWhB53KixxLi35d4yb3LazyEUave2htyeIxrteGrlIS7DxYOGwX96SQLv5IKXlsmfy2iuL3KTlSkJMU9PzRRr5Sgvq6L49UuEPXjd7PTgQC8kAAAAASUVORK5CYII=" },
+    { name: "PostgreSQL", icon: "data:image/png;base64,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" },
+    { name: "Docker", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAADFUlEQVR4nO2XS24aQRCGqxpLiRRLgeC9iWSi7Dw5gckJgk8QvIkEWdg5gfEN8CIgZWN8gtgnCNwA76KAFLIHYaRIycLuyt/AjHnMwOCMh7HEJxVdA0Xz013VD6ZHyFp0WKxFh8VatGHnc7dILHtwR6jrVuHFPpzACF50uVNDt2OiiVqFZKC/E2hnhrVoDwLtzPCq3Mtq0RZch9bHZJECxJfodKWTE+JtuA6bT9Xp77/6EO4Yqq6E4pr1Lh4cWvnkCZrAYNhC3KacWL0l0d/g3SF0gpUjgw/3aAy/6bFT6WVa+USNFuCvsxBED5dKOkZgqVlIfsJbniBmMaGILnd7aOKwQT/z6mBhZ4bhKBgxI5iuNyh2dCO3VRpDUaw0KMKp2FZ+KwvPk0Hxkv4K14E31Jvmh0QD7gwToq2zXny6uDimLvmGUuPFxRDy7Ik6n46F7JlCnBdr5+9wUOgYrgO+d9rMJ4/gzjAh2hSC3ylfJj28Yu0USJe7VSF6D9cBwtpCKkesMzFWjVuNGSsk6viIGOawKtFuI+3BNeJKkRDtltPeSH1C9OtKLzVdXMxUxaslIhbZIE/dCtHEiubUUPgdGxzLucU281tVGoHVo01E27D5YAB4UHx/aBePocMKK42mFBFlBOsA2rkwy4H5o4wi+IkvpCjKsFyamf2eT7QJMKYFmiNHH9OQRUv2sjhONEWPFakbkRS9weqlnQpuQHSnhmaPIgITnePAlKM5cLrSLYnQIfwo0McoW/NG2QDROOALn8FfPQty2Wa0Tuse/JWCtLhCWlhwF4JY7EaVzgUJv4O7Knylhc1A9KpTRJHa/1FIXMD1xUC0ATtjQyj07byPrfnIbM20BI5o1xPew9LH7STjdTuZhyPaEF6aSN2c/Pzm8DQMm2CJA/l96MOKuOiW0N6bGdGGUapUiWgbFgS/kLvFZXPXC1fRNuZGIaRhlMXjc5hv0PEVdtoLUqrmdlL7H9C3P9JfepbcUpy0zpCNEouJ24JLJ55wmpS2UKy9+ZQajYPE4L2HwLfoKLEWHRZr0WHxKEX/AzvSjbR/duivAAAAAElFTkSuQmCC" },
+    { name: "Git", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAADF0lEQVR4nL3YwVHbQBTG8fcMd+QOqMB27vbgdAAVhFQAqSBOBbiDkA6SCmIG7mhoIHQg5Q7efJ9AINvSald68f8Akizt/vCspTEqxmXzyUSf17/FSSIquTsYfByu0hQvmWWK3gCX/Qe4GboWXGYMN0F7wWWG8N7oIHCZEdwELc9upc4dYbc9A3hvNNs3vBOaSH1yV+5QzzBxjkPFsX3Bo9HEva9hTQHnxDleKl7bBzwKTdQ7uExr4TjnUcWNcchfB3gwmphdcJluwKtls8mliFt43/1IeBDaDy5TL1zd+gqbzUXAW9Fh4JecDj4Pb9NrqSmfjhx++QuEe9ExYOYEE96lK6kpn47vccYEm/4C4I3oWDDDW/ltePewkJqy2Tj3rutqLfBadBdwkWcyjsm7igV8B83BO4HLPJNxbAv4BpqD9gK/Vl3b2XS0lMPBAhPn2C3m6At/Q3MwCzDbQq9U9Kh6O+RcfeAFmoNYgdkuWk5EdOM+zjnlWY5xMvbXpypygcPNVeDKiy3BrB7NdANeLZtO5ipw+HqFaz4bZZglwSGzmtF4TeXX8PbhFJs7ZbPRtTr5hM3GeL0GPaki86JFbnAvn0tNOHeBc79i05tG3fQD64Fe4twLbDZWvNNc01Gf5IB8aOYOBx+wrlNsvgVHgs/WH1ycYLc2p/pXDnSO8YoLTOFtaOEHyg3O3s7B/Pgm9B1XTrBbWwnmH4vxXuKFVvBWdBnw+MkLEvxsrArGLi6rZAUPRge0DWYYbzMLuBW6Dsww3m594Pgi8AVfBJbYLOo6VhOY1aJZl8lwO/qBB8e5bBX0tKvkA7NGNIuFV5fFdqHPgzYw86JZDNyHzmdj3IPdsXgKAbNWNAuFNy4PXK9P63tsNhYKZkFoxonD4Hho3KY/sVmE6xI8OLCewx4c2G0tGM0ACIKr6jWWwiNGT5zIOdZNgsO1xYJZFJqFwkPqAmbRaGYB7wpmndCsD7wPmHVGsy7wvmDWC81i4BZg1hvNQuBWYGaCZj64JZiZoVkd3BrMTNGsgD+tlxj4BA+WG/xL7NISzP4BMKHu1yBaGWEAAAAASUVORK5CYII=" },
+    { name: "Vercel", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAB8klEQVR4nO3X7Y3aQBRG4fd2QAl2B0sHpgOoIFDBkgpiKlhSQbwVQAe4A+jALsEl5EwmiVgE+GvMGmmP9Hj+Xo3sK9n0hH0N/aiGHPoHNgieYYiWkn5hhUyBM4RugiMiSaWkKSoEyxC6VP7V+NcGqQJmCFkkqcB57pbdbZcKlCFkO8xx2R4LBCnk0ImkA241Q64AGUJ1xAtudcIUvQs19FJ+xdW1QqaeGfo2QQF31lUhhjs7Z+jbFq9o2gapemToUyR/y22LUapjhj4dkKh9ufw26ZSha4n80F2bIVeHDF0rEKl7pfxr0jpDl9Z4Q9++Y4tWdRl6AnfL7uxbhRjubJyhbZmkbwjVO5ZqkaFNLzgidFOc0Ki2Qx+QKHy5/DZplKFpc+wwVAvsUVuboQtEGq5S/qOszdCkVB9/oYZqg1Q1GeqK5D++CYauwhSl7mSoK1PYFVfXO5a6k+FeifzGeHQz5LqR4V5u4ESPL5cf/GqGWy3V7BdqqFbIdCXDtSYo4M7PqpT/KCt86NbQqR6z4uraINVFhssi+VseSzFKnWW4bIc5xtIeC/zvcuhEfmOMrRly/c1w3hEvGFsnTPGn86HXeMNYWyETGVwTFHDnWKsQozIeri1eMfZ+Yu2GjuRv+VmKjccBiZ6n3A39dH0N/ah+AyscUw1lw7nHAAAAAElFTkSuQmCC" },
+  ];
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 16, padding: '26px 32px', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(245,241,234,0.10)', position: 'relative', overflow: 'hidden' }}>
+      <svg width="800" height="208" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="#d65a31" stopOpacity="1" />
+            <stop offset="45%" stopColor="#d65a31" stopOpacity="0.45" />
+            <stop offset="100%" stopColor="#d65a31" stopOpacity="0" />
+          </radialGradient>
+          <filter id="grain">
+            <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" />
+            <feColorMatrix type="saturate" values="0" />
+          </filter>
+        </defs>
+        <ellipse cx="730" cy="208" rx="250" ry="96" fill="url(#bloom)">
+      <animate attributeName="cx" values="670;790;670" dur="4.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+          <animate attributeName="rx" values="250;320;250" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+        </ellipse>
+        <rect width="800" height="208" filter="url(#grain)" opacity="0.05" />
+      </svg>
+      <span style={{ fontSize: 11, letterSpacing: 2.2, color: '#d65a31', fontWeight: 600 }}>SOFTWARE</span>
+      <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: 18 }}>
+        {tools.map((tool) => (
+          <div key={tool.name} style={{ display: 'flex', alignItems: 'center', height: 32, paddingLeft: 12, paddingRight: 14, marginRight: 8, marginBottom: 8, background: 'rgba(245,241,234,0.88)', borderRadius: 16 }}>
+            <img src={tool.icon} width={15} height={15} style={{ marginRight: 7 }} />
+            <span style={{ fontSize: 13, fontWeight: 500, color: '#0c0a09' }}>{tool.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+})()
+```
+
+<br/>
+
+```aura width=800 height=148 inline align=center
+(() => {
+  const stats = [
+    { label: 'Repositories', value: github?.stats?.totalRepos ?? 0 },
+    { label: 'Commits', value: github?.stats?.totalCommits ?? 0 },
+    { label: 'Years on GitHub', value: github?.user?.createdAt ? Math.max(1, new Date().getFullYear() - new Date(github.user.createdAt).getFullYear()) : '—' },
+    { label: 'Top language', value: github?.languages?.[0]?.name ?? '—' },
+  ];
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 16, padding: '26px 32px', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(245,241,234,0.10)', position: 'relative', overflow: 'hidden' }}>
+      <svg width="800" height="148" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="#d65a31" stopOpacity="1" />
+            <stop offset="45%" stopColor="#d65a31" stopOpacity="0.45" />
+            <stop offset="100%" stopColor="#d65a31" stopOpacity="0" />
+          </radialGradient>
+          <filter id="grain">
+            <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" />
+            <feColorMatrix type="saturate" values="0" />
+          </filter>
+        </defs>
+        <ellipse cx="90" cy="148" rx="250" ry="96" fill="url(#bloom)">
+          <animate attributeName="cx" values="30;150;30" dur="4.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+          <animate attributeName="rx" values="250;320;250" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
+        </ellipse>
+        <rect width="800" height="148" filter="url(#grain)" opacity="0.05" />
+      </svg>
+
+      <span style={{ fontSize: 11, letterSpacing: 2.2, color: '#d65a31', fontWeight: 600, alignSelf: 'flex-start' }}>CONTRIBUTIONS</span>
+
+      <div style={{ display: 'flex', alignItems: 'center', marginTop: 20 }}>
+        {stats.map((stat, i) => (
+          <div key={stat.label} style={{ display: 'flex', alignItems: 'center' }}>
+            {i > 0 && (
+              <div style={{ display: 'flex', width: 1, height: 38, background: 'rgba(245,241,234,0.14)', marginLeft: 28, marginRight: 28 }} />
+            )}
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <span style={{ fontSize: 22, fontWeight: 700, color: '#f5f1ea', letterSpacing: -0.3 }}>{String(stat.value)}</span>
+              <span style={{ fontSize: 10, letterSpacing: 1.3, color: 'rgba(245,241,234,0.42)', marginTop: 7 }}>{stat.label.toUpperCase()}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+})()
+```
