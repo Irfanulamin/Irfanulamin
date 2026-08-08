@@ -1,6 +1,6 @@
-```aura width=800 height=240 inline align=center
+```aura width=800 height=264 inline align=center
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 20, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden', border: '1px solid rgba(245,241,234,0.10)' }}>
-  <svg width="800" height="240" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="800" height="264" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse">
         <path d="M 58 0 L 0 0 L 0 58" fill="none" stroke="#f5f1ea" strokeWidth="1" />
@@ -11,7 +11,7 @@
         <stop offset="100%" stopColor="#ffffff" stopOpacity="0" />
       </radialGradient>
       <mask id="gridfade">
-        <rect width="800" height="240" fill="url(#fade)" />
+        <rect width="800" height="264" fill="url(#fade)" />
       </mask>
       <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="#d65a31" stopOpacity="1" />
@@ -23,20 +23,18 @@
         <feColorMatrix type="saturate" values="0" />
       </filter>
     </defs>
-    <rect width="800" height="240" fill="url(#grid)" mask="url(#gridfade)" />
-    <ellipse cx="400" cy="252" rx="300" ry="104" fill="url(#bloom)">
+    <rect width="800" height="264" fill="url(#grid)" mask="url(#gridfade)" />
+    <ellipse cx="400" cy="276" rx="300" ry="104" fill="url(#bloom)">
       <animate attributeName="cx" values="340;460;340" dur="4.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
       <animate attributeName="rx" values="300;380;300" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
       <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.22 1 0.36 1;0.22 1 0.36 1" />
     </ellipse>
-    <rect width="800" height="240" filter="url(#grain)" opacity="0.05" />
+    <rect width="800" height="264" filter="url(#grain)" opacity="0.05" />
   </svg>
 
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '6px 16px', borderRadius: 16, background: 'rgba(245,241,234,0.05)', border: '1px solid rgba(245,241,234,0.14)' }}>
-    <span style={{ fontSize: 13, color: 'rgba(245,241,234,0.75)' }}>Hello, I am</span>
-  </div>
+  <span style={{ fontSize: 13, letterSpacing: 0.4, color: 'rgba(245,241,234,0.50)' }}>Hello, I am</span>
 
-  <span style={{ fontSize: 48, fontWeight: 700, letterSpacing: -1.4, marginTop: 14, background: 'linear-gradient(180deg, #f5f1ea 0%, #e6e1d6 52%, rgba(245,241,234,0.52) 100%)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }}>Irfanul Amin Maruf</span>
+  <span style={{ fontSize: 48, fontWeight: 700, letterSpacing: -1.4, marginTop: 10, background: 'linear-gradient(180deg, #f5f1ea 0%, #e6e1d6 52%, rgba(245,241,234,0.52) 100%)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }}>Irfanul Amin Maruf</span>
 
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 12 }}>
     <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -45,6 +43,11 @@
       <span style={{ fontSize: 16, color: 'rgba(245,241,234,0.62)' }}>who likes building things,</span>
     </div>
     <span style={{ fontSize: 16, color: 'rgba(245,241,234,0.62)', marginTop: 6 }}>always learning something new along the way.</span>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'column', marginTop: 26 }}>
+    <span style={{ fontSize: 13.5, color: 'rgba(245,241,234,0.92)' }}>irfanulamin10@gmail.com</span>
+    <div style={{ display: 'flex', height: 1, background: 'rgba(214,90,49,0.60)', marginTop: 5 }} />
   </div>
 </div>
 ```
@@ -95,7 +98,7 @@
 </div>
 ```
 
-```aura width=138 height=38 link="https://www.instagram.com/irfanulamin.dev/" inline align=center
+```aura width=138 height=38 link="https://www.instagram.com/notirf4n/" inline align=center
 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0c0a09', borderRadius: 19, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
   <svg width="138" height="38" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
