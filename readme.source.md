@@ -32,9 +32,11 @@
     <rect width="800" height="264" filter="url(#grain)" opacity="0.05" />
   </svg>
 
-  <span style={{ fontSize: 13, letterSpacing: 0.4, color: 'rgba(245,241,234,0.50)' }}>Hello, I am</span>
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '6px 16px', borderRadius: 16, background: 'rgba(245,241,234,0.05)', border: '1px solid rgba(245,241,234,0.14)' }}>
+    <span style={{ fontSize: 13, color: 'rgba(245,241,234,0.75)' }}>Hello, I am</span>
+  </div>
 
-  <span style={{ fontSize: 48, fontWeight: 700, letterSpacing: -1.4, marginTop: 10, background: 'linear-gradient(180deg, #f5f1ea 0%, #e6e1d6 52%, rgba(245,241,234,0.52) 100%)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }}>Irfanul Amin Maruf</span>
+  <span style={{ fontSize: 48, fontWeight: 700, letterSpacing: -1.4, marginTop: 14, background: 'linear-gradient(180deg, #f5f1ea 0%, #e6e1d6 52%, rgba(245,241,234,0.52) 100%)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }}>Irfanul Amin Maruf</span>
 
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 12 }}>
     <div style={{ display: 'flex', alignItems: 'center' }}>

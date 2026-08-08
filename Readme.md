@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./.github/assets/readme-aura-component-0-a6f1c273.svg" width="800" height="264" />
+<img src="./.github/assets/readme-aura-component-0-e9aed899.svg" width="800" height="264" />
 </p>
 
 <br/>
