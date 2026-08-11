@@ -17,5 +17,5 @@
 <br/>
 
 <p align="center">
-<img src="./.github/assets/readme-aura-component-5-7e048d43.svg" width="800" height="148" />
+<img src="./.github/assets/readme-aura-component-5-04fe068c.svg" width="800" height="148" />
 </p>
