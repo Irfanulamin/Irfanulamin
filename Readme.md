@@ -13,9 +13,3 @@
 <p align="center">
 <img src="./.github/assets/readme-aura-component-4-40bd0900.svg" width="800" height="208" />
 </p>
-
-<br/>
-
-<p align="center">
-<img src="./.github/assets/readme-aura-component-5-ebc36bf9.svg" width="800" height="148" />
-</p>
